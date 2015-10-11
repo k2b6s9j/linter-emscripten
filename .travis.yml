@@ -7,4 +7,6 @@ notifications:
 
 install: brew install emscripten
 
+before_script: emcc
+
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
