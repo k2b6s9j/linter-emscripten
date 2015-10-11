@@ -1,15 +1,15 @@
 {
-  "name": "linter-clang",
+  "name": "linter-emscripten",
   "main": "./lib/main",
-  "version": "3.2.3",
-  "description": "Lint C-based files using clang",
+  "version": "0.0.0",
+  "description": "Lint C-based files using emscripten",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AtomLinter/linter-clang"
+    "url": "https://github.com/k2b6s9j/linter-emscripten"
   },
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.0.0"
   },
   "providedServices": {
     "linter": {
@@ -22,6 +22,9 @@
     "atom-linter": "^2.0.5",
     "atom-package-deps": "^2.0.1",
     "clang-flags": "^0.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^1.6.0"
   },
   "packages-deps": [
     "linter"
