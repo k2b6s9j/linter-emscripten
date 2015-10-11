@@ -1,11 +1,11 @@
 "use babel";
 
-describe('The Clang provider for AtomLinter', () => {
+describe('The Emscripten provider for AtomLinter', () => {
   const lint = require('../lib/main').provideLinter().lint
 
   beforeEach(() => {
     waitsForPromise(() => {
-      return atom.packages.activatePackage("linter-clang")
+      return atom.packages.activatePackage("linter-emscripten")
     })
   })
 
