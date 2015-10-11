@@ -7,6 +7,8 @@ notifications:
 
 install: brew install emscripten
 
-before_script: emcc
+before_script:
+  - emcc
+  - echo "LLVM_ROOT='/usr/local/opt/emscripten/libexec/llvm/bin'" >> ~/.emscripten
 
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
