@@ -5,7 +5,7 @@
   "description": "Lint C-based files using emscripten",
   "repository": {
     "type": "git",
-    "url": "https://github.com/k2b6s9j/linter-emscripten"
+    "url": "https://github.com/kepler0/linter-emscripten"
   },
   "license": "MIT",
   "engines": {
