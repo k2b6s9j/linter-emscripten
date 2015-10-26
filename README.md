@@ -1,6 +1,6 @@
 # linter-emscripten
 
-[![Travis.ci Shield](https://img.shields.io/travis/kepler0/linter-emscripten.svg?style=flat-square)](https://travis-ci.org/k2b6s9j/linter-emscripten)
+[![Travis.ci Shield](https://img.shields.io/travis/kepler0/linter-emscripten.svg?style=flat-square)](https://travis-ci.org/kepler0/linter-emscripten)
 
 This linter plugin for [Linter](https://github.com/atom-community/linter) provides an interface to emscripten. It will be used with files that have the "C++", "C", "Objective-C" and "Objective-C++" syntax.
 
